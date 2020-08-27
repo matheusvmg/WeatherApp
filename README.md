@@ -23,4 +23,5 @@ Através dessa link você consegue acessar a aplicação [clique aqui!!!](https:
 <h3 align="center"><img src="https://img.icons8.com/color/25/000000/javascript.png"/>Javascript</h3>
 <h3 align="center"><img src="https://img.icons8.com/color/25/000000/nodejs.png"/>Nodejs</h3>
 <h3 align="center"><img src="https://img.icons8.com/color/25/000000/firebase.png"/>Firebase</h3>
+<br>
 <h1 align="center">:octocat:</h1>
