@@ -1,0 +1,128 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #F6FFF8;
+}
+
+.App{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.App h1{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	color: #2F2E41;
+}
+
+#img-principal{
+	width: 248px;
+	height: 190px;
+	margin-bottom: 20px;
+}
+
+.App button{
+	border: none;
+	text-decoration: none;
+	background-color: #63DBFF;
+	border-radius: 5px;
+	height: 26px;
+	width: 85vw;
+	color: #2F2E41;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.App button:focus{
+	border: none;
+	outline: 0 none;
+}
+
+/*media queries*/
+@media (min-width: 768px) {
+
+	html, body{
+		max-width: 100%;
+	}
+	
+	.App{
+		display: block;
+		position: relative;
+	}
+
+	.App h1{
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#img-principal{
+		position: absolute;
+		top: 8.2%;
+		right: 0;
+		width: 53.5vw;
+		height: 82vh;
+	}
+
+	.App button{
+		height: 32px;
+		width: 272px;
+		margin-left: 50%;
+		transform: translate(-50%);
+	}
+}
+
+@media (min-width: 1024px) {
+
+	.App h1{
+		font-size: 40px;
+	}
+
+	#img-principal{
+		position: absolute;
+		top: 10%;
+		right: 0;
+		width: 56vw;
+		height: 74vh;
+	}
+
+	.App h1{
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (min-width: 1440px) {
+
+	.App h1{
+		font-size: 40px;
+	}
+
+	#img-principal{
+		position: absolute;
+		top: 10%;
+		right: 0;
+		width: 56vw;
+		height: 71.5vh;
+	}
+
+	.App button{
+		height: 45px;
+		width: 300px;
+		margin-left: 50%;
+		transform: translate(-50%);
+		margin-top: 40px;
+		font-size: 20px;
+	}
+}
